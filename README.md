@@ -5,7 +5,7 @@ If you host a lot of Wordpress sites, you probably want to make sure they have a
 This little Go tool will scan a list of Wordpress sites in parallel and print the corresponding version.
 
 ## Installation
-Use the pre-built binaries from the [Release page](https://github.com/m3nu/wp-audit/releases) or with Go installed:
+Use the pre-built binaries from the [Release page](https://github.com/m3nu/wp-audit/releases) or with Go installed run:
 
 `$ go get -u -v github.com/m3nu/wp-audit`
 
