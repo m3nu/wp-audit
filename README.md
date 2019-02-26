@@ -14,7 +14,12 @@ First add all your WordPress domains in a textfile, omitting the protocol. See `
 
 Then run `wp-audit` by passing the textfile. It will look for a file called `domains.txt` by default.
 
-`$ wp-audit --domain-list domains.txt`
+```
+$ wp-audit --domain-list domains.txt
+Site www.saiaja.com.br is on version 5.1
+Site www.thetruthseeker.co.uk is on version 5.1
+Site murviel-info-beziers.com is on version 5.1
+```
 
 ## License
 (C) Manuel Riel, 2019
