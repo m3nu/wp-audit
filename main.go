@@ -14,10 +14,10 @@ type wordpressSite struct {
 }
 
 var wpVersionRegexList = []string{
-	`content="WordPress ([\d\.]+)`,
 	`wp\-embed\.min\.js\?ver=([\d\.]+)`,
 	`comment\-reply\.min\.js\?ver=([\d\.]+)`,
 	`wp\-emoji\-release\.min\.js\?ver=([\d\.]+)`,
+	`content="WordPress ([\d\.]+)`,
 }
 
 var domainListPath = flag.String("domain-list", "domains.txt", "Path to the list of domains to be surveyed.")
